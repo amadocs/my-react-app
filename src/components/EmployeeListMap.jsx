@@ -11,7 +11,7 @@ function EmployeeListMap() {
           <table>
             <thead>
               <tr>
-                <th>EmpID</th>
+                <th>Employee ID</th>
                 <th>Name</th>
                 <th>Designation</th>
               </tr>
