@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import FunctionalComponent from './components/FunctionalComponent';
 import reportWebVitals from './reportWebVitals';
+import EmployeeListMap from './components/EmployeeListMap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     <FunctionalComponent />
+    <EmployeeListMap />
   </React.StrictMode>
 );
 
-reportWebVitals(console.log);
+reportWebVitals();
